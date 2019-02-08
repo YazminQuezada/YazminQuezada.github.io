@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Sitio Personal</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="w-100">&nbsp;</div>
+                <!--div class="col">
+                    <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action">
+                        Home
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action">Resume</button>
+                        <button type="button" class="list-group-item list-group-item-action">Skills</button>
+                        <button type="button" class="list-group-item list-group-item-action">Portfoli</button>
+                        <button type="button" class="list-group-item list-group-item-action">Blog</button>
+                        <button type="button" class="list-group-item list-group-item-action">Contact</button>
+                    </div>
+                </div-->
+                <div class="col" style="background:white">
+                    <!--div class="card">
+                        <img src="img/main-pic.jpg" class="card-img-top" alt="Profile image">
+                        <div class="card-body">
+                            <h3 class="card-title">Hola!  <span>Soy Israel!</span></h3>
+                            <h4>Front End Developer</h4>
+                            <hr>
+                            <p class="card-text text-center" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary btn-block">Visita mi sitio</a>
+                            <div class="social-network-wrapper">
+                                <a href="https://www.instagram.com" target="_blank"><div class="social-icon instagram"></div></a>
+                                <div class="social-icon facebook"></div>
+                                <div class="social-icon twitter"></div>
+                                <div class="social-icon linkedin"></div>
+                                <div class="social-icon youtube"></div>
+                            </div>
+                        </div>
+                    </div-->
+                    <form id="add-car-form" action="">
+                        <div class="form-group">
+                            <label for="">Marca</label>
+                            <input id="car-company" type="text" class="form-control" value="Dodge">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Modelo</label>
+                            <input id="car-model" type="text" class="form-control" value="Viper">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Color</label>
+                            <input id="car-color" type="text" class="form-control" value="Red">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Potencia</label>
+                            <input id="car-horse-power" type="text" class="form-control" value="400">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Cilindros</label>
+                            <input id="car-cilinders" type="text" class="form-control" value="8">
+                        </div>
+                        <div id="submit-button" class="btn btn-success mb-2">Agregar auto</div>
+                    </form>
+                </div>
+                <div class="col">
+                    <div class="resume-wrapper">
+                        <!--div class="row">
+                            <div class="col">
+                                <h1>Resume</h1>
+                                <div class="d-flex justify-content-around">
+                                    <div class="btn btn-primary">Download my resume</div>
+                                    <div class="btn btn-primary">
+                                        Get in touch
+                                    </div>
+                                </div>
+                            </div>
+                        </div-->
+                        <div class="row">
+                            <div class="col">
+                                <!--div class="section-header education">Education</div>
+                                <div class="content-wrapper">
+                                    <h2 class="content-title">Graphic Design</h2>
+                                    <h3 class="content-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                                    <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div-->
+                                <table id="cars-list" class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Marca</th>
+                                            <th>Modelo</th>
+                                            <th>Color</th>
+                                            <th>Potencia</th>
+                                            <th>Cilindros</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Mazda</td>
+                                            <td>Mazda 6</td>
+                                            <td>Red</td>
+                                            <td>250 hp</td>
+                                            <td>4</td>
+                                        </tr>
+                                    </tbody>
+                                    
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
